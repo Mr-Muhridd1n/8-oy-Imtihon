@@ -7,13 +7,16 @@ export const Hero = () => {
     <section className={styles.hero}>
       <img
         className={styles["hero-pattern"]}
-        src="public/assets/images/pattern-squiggle-1.svg"
+        src="./assets/images/pattern-squiggle-1.svg"
         alt=""
       />
       <div className={`${styles["hero-content"]} align-elements`}>
         <div className={styles["hero-texts"]}>
           <h1 className={styles["hero-title"]}>
-            <span></span>Healthy meals, zero fuss
+            <span className={styles["hero-title-bg"]}>
+              Healthy<span></span>
+            </span>{" "}
+            meals, zero fuss
           </h1>
           <p className={styles["hero-description"]}>
             Discover eight quick, whole-food recipes that you can cook

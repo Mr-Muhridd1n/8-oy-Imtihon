@@ -98,14 +98,36 @@ body {
 }
 
 .panel {
-  padding-top: 20px;
+  padding-top: 5rem;
+  padding-bottom: 9.6rem;
 }
 .panel__container {
+  & h1 {
+    font-size: var(--font-size-preset-2);
+    margin-bottom: 3rem;
+    font-weight: var(--font-weight-bold);
+    color: var(--color-neutral-900);
+    line-height: var(--line-height-tight);
+  }
 }
+
 .panel__form {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  max-width: 100%;
+
+  & input {
+    padding: 1rem;
+    font-size: var(--font-size-preset-7);
+  }
+
+  & textarea {
+    padding: 1rem;
+    max-width: 100%;
+    max-height: 100px;
+    font-size: var(--font-size-preset-7);
+  }
 }
 
 @media screen and (max-width: 775px) {
@@ -116,6 +138,12 @@ body {
 
     & .select-button__wrapper {
       justify-content: space-between;
+    }
+  }
+
+  .panel__container {
+    & h1 {
+      font-size: var(--font-size-preset-2-mobile);
     }
   }
 
