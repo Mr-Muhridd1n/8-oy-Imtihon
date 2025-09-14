@@ -1,0 +1,32 @@
+.footer {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__text {
+  font-size: var(--font-size-preset-9);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-loose);
+  letter-spacing: var(--letter-spacing-wider);
+  color: var(--color-neutral-900);
+}
+.footer__links {
+  display: flex;
+  gap: 2.4rem;
+}
+
+@media screen and (max-width: 375px) {
+  .footer {
+    padding-top: 3.2rem;
+    padding-bottom: 2rem;
+  }
+
+  .footer__container {
+    gap: 2.4rem;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+}

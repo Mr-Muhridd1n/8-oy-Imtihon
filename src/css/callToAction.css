@@ -1,0 +1,115 @@
+.cta {
+  overflow: hidden;
+}
+.cta__container {
+  padding-top: 9.6rem;
+  padding-bottom: 9.6rem;
+  position: relative;
+  background-color: var(--color-neutral-200);
+  text-align: center;
+  overflow: hidden;
+  border-radius: 1.6rem;
+}
+
+.cta-title {
+  font-size: var(--font-size-preset-2);
+  font-weight: var(--font-weight-extrabold);
+  color: var(--color-neutral-900);
+  margin-bottom: 1.2rem;
+  z-index: 2;
+  position: relative;
+}
+
+.cta-subtitle {
+  color: var(--color-neutral-600);
+  font-size: var(--font-size-preset-5);
+  line-height: var(--line-height-loose);
+  letter-spacing: var(--letter-spacing-wide);
+  margin-bottom: 4rem;
+  z-index: 2;
+  position: relative;
+}
+
+.cta-button {
+}
+
+/* Icons */
+.cta-icon {
+  position: absolute;
+  & img {
+    width: 100%;
+  }
+}
+
+.cta-icon-left {
+  width: 314.6680603027344px;
+  height: 390px;
+  left: -90px;
+  top: 58%;
+  transform: translateY(-50%);
+}
+
+.cta-icon-right {
+  width: 338.42559814453125px;
+  height: 338.42559814453125px;
+  right: -57px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+@media screen and (max-width: 768px) {
+  .cta {
+    padding-top: 8rem;
+  }
+
+  .cta__container {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+
+  .cta-title {
+    font-size: var(--font-size-preset-2);
+    line-height: var(--line-height-snug);
+    letter-spacing: var(--letter-spacing-tight);
+  }
+
+  .cta-icon-left {
+    width: 179.1255645751953px;
+    height: 231.7151336669922px;
+    left: -20px;
+    top: 80%;
+    transform: translateY(-50%);
+  }
+  .cta-icon-right {
+    width: 171.77877807617188px;
+    height: 171.77877807617188px;
+    right: -50px;
+    top: 10%;
+    transform: translateY(-50%);
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .cta {
+    padding-top: 6.4rem;
+  }
+
+  .cta__container {
+    padding-top: 4.8rem;
+    padding-bottom: 4.8rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+  }
+
+  .cta-title {
+    font-size: var();
+  }
+
+  .cta-icon {
+    display: none;
+  }
+
+  .cta-subtitle {
+    margin-bottom: 3.2rem;
+  }
+}
