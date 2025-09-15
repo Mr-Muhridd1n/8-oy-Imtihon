@@ -61,6 +61,13 @@
   object-fit: cover;
 }
 
+@media screen and (max-width: 800px) {
+  .real_life__title {
+    line-height: var(--line-height-snug);
+    letter-spacing: var(--letter-spacing-tight);
+  }
+}
+
 @media screen and (max-width: 768px) {
   .real_life {
     padding-top: 8rem;

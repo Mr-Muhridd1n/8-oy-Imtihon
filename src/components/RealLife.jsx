@@ -13,7 +13,7 @@ export const RealLife = () => {
             </span>{" "}
             of active time, fit busy schedules, and taste good enough to repeat.
           </p>
-          <p className="real_life__subtitle">
+          <p className="real_life__description">
             Whether you’re new to the kitchen or just need fresh ideas, we’ve
             got you covered.
           </p>

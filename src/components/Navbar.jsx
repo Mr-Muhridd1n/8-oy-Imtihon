@@ -24,6 +24,10 @@ export const Navbar = () => {
             <NavLink to="/recipes">Recipes</NavLink>
             <span className="navbar__list-item-line"></span>
           </li>
+          <li className="navbar__list-item">
+            <NavLink to="/panel">Panel</NavLink>
+            <span className="navbar__list-item-line"></span>
+          </li>
         </ul>
         <Link to="/recipes" className="navbar__recipes btn">
           Browse recipes
@@ -46,6 +50,10 @@ export const Navbar = () => {
             </li>
             <li className="navbar__list-item">
               <NavLink to="/recipes">Recipes</NavLink>
+              <span className="navbar__list-item-line"></span>
+            </li>
+            <li className="navbar__list-item">
+              <NavLink to="/panel">Panel</NavLink>
               <span className="navbar__list-item-line"></span>
             </li>
           </ul>
